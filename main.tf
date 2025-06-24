@@ -73,7 +73,7 @@ resource "aws_instance" "ec2_use1" {
 # EC2 in ap-south-1
 resource "aws_instance" "ec2_aps1" {
   provider                  = aws.aps1
-  ami                       = "ami-03bb6d83c60fc5f7c"
+  ami                       = "ami-0b09627181c8d5778"
   instance_type             = "t2.micro"
   key_name = "keyaws"
   associate_public_ip_address = true
